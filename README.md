@@ -1,6 +1,6 @@
-# GARGID  - CHATBOOT
+# <img src="https://github.com/sidjr2/GARGID/blob/master/src/app/favicon.ico" alt="GARDID_LOGO"> GARGID  - CHATBOOT
 
-<img src="https://github.com/sidjr2/GARGID/blob/master/src/app/favicon.ico" alt="GARDID_LOGO">
+
 
 Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
