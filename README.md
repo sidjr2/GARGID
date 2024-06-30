@@ -4,7 +4,7 @@
 
 Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-© 2024 UFSJ. [GARGID]() Desenvolvido durante a Disciplina de Principio e Desenvolvimento de Software em 2024.1, durante o curso de Ciência da Computação - UFSJ.
+© 2024 UFSJ. [GARGID](https://sidjr2.github.io/GARGID/) Desenvolvido durante a Disciplina de Principio e Desenvolvimento de Software em 2024.1, durante o curso de Ciência da Computação - UFSJ.
 
 Em colaboração com o TI do [Grupo CACEL](https://grupocacel.com.br/) de São João del-Rei.
 
@@ -22,7 +22,7 @@ pnpm dev
 bun dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado ou pode acessar no link do [GARGID LIVE DEMO]()
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado ou pode acessar no link do [GARGID LIVE DEMO](https://sidjr2.github.io/GARGID/)
 
 
 ## LEIA MAIS EM
