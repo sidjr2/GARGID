@@ -9,6 +9,7 @@ import { Footer } from "@/components/Footer";
 import { v4 as uuidv4 } from "uuid";
 import { SidebarButton } from "@/components/SidebarButton";
 import { SideBarChatButton } from "@/components/SideBarChatButton";
+import { setDefaultAutoSelectFamilyAttemptTimeout } from "node:net";
 
 const modelIA = [
     { value: "OPENIA", label: "CHAT GPT" },
@@ -24,7 +25,7 @@ const Page = () => {
     const [chatActiveId, setChatActiveId] = useState<string>('');
     const [chatActive, setChatActive] = useState<Chat>();
     const [GargidLoading, setGargidLoading] = useState(false);
-
+    const [SelectIa, setSelectIa] = useState(false);
 
     useEffect(() => {
         setChatActive(chatList.find(item => item.id === chatActiveId));
@@ -35,7 +36,10 @@ const Page = () => {
     }, [GargidLoading]);
 
     const openSidebar = () => setSidebarOpened(true);
-
+    const openSelectIaClick=() => setSelectIa(true);
+    const closeSelectIaClick=()=>{
+        setSelectIa(false);
+    }
     const closeSidebar = () => {
         setSidebarOpened(false);
     };
@@ -127,6 +131,7 @@ const Page = () => {
             <section className="flex flex-col w-full">
                 <Header
                     openSidebarClick={openSidebar}
+                    openSelectIaClick={SelectIa.valueOf}
                     title={chatActive ? chatActive.title : 'Nova Conversa'}
                     newChatClick={handleNewChat}
                 />
